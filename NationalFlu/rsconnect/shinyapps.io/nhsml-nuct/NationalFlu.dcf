@@ -1,0 +1,12 @@
+name: NationalFlu
+title:
+username: nhsml-nuct
+account: nhsml-nuct
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 13611234
+bundleId: 10005956
+url: https://nhsml-nuct.shinyapps.io/NationalFlu/
+version: 1
+asMultiple: FALSE
+asStatic: FALSE
