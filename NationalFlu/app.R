@@ -15,6 +15,7 @@ library(lubridate)
 library(plotly)
 library(rvest)         # To parse html to get link
 
+# Uses functions in the file below
 source("R/functions.R")    # shouldn't need this when deploy as shinyapps
                            # should load (though no harm leaving in for testing)
 
@@ -98,6 +99,17 @@ ui <- fluidPage(
 
         # Show a plot of the generated distribution
         mainPanel(
+          HTML(r"(
+                <p><b>Please note</b>, due to changes in the team which created
+               this app, it will not be updated after March 2025.
+               <p>If anyone wishes to create a version for future winters then
+               please take the code at:
+               <A href="https://github.com/MLCSU/NationalFlu" TARGET="_blank">
+                https://github.com/MLCSU/NationalFlu
+                </A> 
+               and host it elsewhere.
+               <p>So long, and thanks for all the fish.  Andy McCann</p>
+           )"),
           HTML(r"(
                 <p>This chart compares the number of patients with 
              laboratory-confirmed influenza in General & Acute (G&A) beds in the 
