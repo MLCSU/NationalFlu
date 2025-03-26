@@ -108,7 +108,7 @@ ui <- fluidPage(
                 https://github.com/MLCSU/NationalFlu
                 </A> 
                and host it elsewhere.
-               <p>So long, and thanks for all the fish.  Andy McCann</p>
+               <p>So long, and thanks for all the fish. Andy McCann</p>
            )"),
           HTML(r"(
                 <p>This chart compares the number of patients with 
